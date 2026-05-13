@@ -1,0 +1,99 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presentes - Emily e Pedro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'azul-convite': '#5b7a8a', /* Um tom aproximado da fonte do seu convite */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen pb-10">
+
+    <header class="bg-white shadow-sm py-8 mb-8 border-t-8 border-azul-convite">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-5xl font-serif text-azul-convite mb-2 italic">Emily e Pedro</h1>
+            <p class="text-lg text-slate-500 mb-4">31 de Maio | Celebração da nossa união</p>
+            
+            <div id="contador" class="flex justify-center gap-4 text-azul-convite font-medium">
+                <div class="bg-slate-100 px-4 py-2 rounded-lg shadow-sm"><span id="dias" class="text-2xl block">00</span>Dias</div>
+                <div class="bg-slate-100 px-4 py-2 rounded-lg shadow-sm"><span id="horas" class="text-2xl block">00</span>Horas</div>
+                <div class="bg-slate-100 px-4 py-2 rounded-lg shadow-sm"><span id="minutos" class="text-2xl block">00</span>Min</div>
+                <div class="bg-slate-100 px-4 py-2 rounded-lg shadow-sm"><span id="segundos" class="text-2xl block">00</span>Seg</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4">
+        
+        <div class="flex flex-wrap justify-center gap-3 mb-8">
+            <button onclick="filtrarPresentes('Todos')" class="btn-filtro bg-azul-convite text-white px-5 py-2 rounded-full text-sm font-medium transition-colors border border-azul-convite">Todos</button>
+            <button onclick="filtrarPresentes('Casa')" class="btn-filtro bg-white text-slate-600 hover:text-azul-convite hover:border-azul-convite px-5 py-2 rounded-full text-sm font-medium transition-colors border border-slate-200">Para a Casa</button>
+            <button onclick="filtrarPresentes('Brincadeira')" class="btn-filtro bg-white text-slate-600 hover:text-azul-convite hover:border-azul-convite px-5 py-2 rounded-full text-sm font-medium transition-colors border border-slate-200">Cotas e Brincadeiras</button>
+        </div>
+
+        <div id="grid-presentes" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            </div>
+    </main>
+
+    <div id="toast" class="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-emerald-600 text-white px-6 py-3 rounded-full shadow-lg transition-all duration-300 opacity-0 pointer-events-none z-50 flex items-center gap-2 translate-y-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+        </svg>
+        <span class="font-medium">Chave PIX copiada com sucesso!</span>
+    </div>
+
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-60 hidden flex items-center justify-center z-50 p-4 transition-opacity">
+        <div class="bg-white rounded-xl shadow-2xl max-w-md w-full overflow-hidden relative">
+            
+            <button onclick="fecharModal()" class="absolute top-3 right-3 bg-white text-slate-500 hover:text-slate-800 rounded-full p-1 shadow hover:bg-slate-100 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <div class="p-6 text-center">
+               <img id="modal-img" src="" alt="Imagem do Presente" class="w-full h-48 object-contain p-2 bg-white rounded-lg mb-4 shadow-sm border border-slate-100">
+                <h2 id="modal-nome" class="text-2xl font-semibold text-slate-800 mb-1">Nome do Item</h2>
+                <p id="modal-valor" class="text-xl text-emerald-600 font-medium mb-6">R$ 0,00</p>
+                
+                <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                    <p class="text-sm text-slate-600 mb-3">Escaneie o QR Code ou copie a chave PIX abaixo:</p>
+                    
+                    <img id="modal-qr" src="" alt="QR Code PIX" class="w-40 h-40 mx-auto mb-4 bg-white p-2 border border-slate-200 rounded-lg">
+                    
+                    <div class="flex items-center justify-between bg-white border border-slate-300 rounded-lg p-2">
+                        <span id="modal-chave-pix" class="text-sm text-slate-500 truncate mr-2 font-mono">chave-pix-aqui</span>
+                        <button onclick="copiarPix()" id="btn-copiar" class="bg-slate-800 text-white px-4 py-2 rounded-md text-sm hover:bg-slate-700 transition-colors whitespace-nowrap">
+                            Copiar Chave
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-white border-t border-slate-200 mt-16 py-10">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto text-azul-convite mb-4 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+            
+            <p class="text-slate-600 leading-relaxed italic mb-4">
+                "A cada um de vocês que recebeu nosso convite, nossa imensa gratidão por fazerem parte de nossas vidas. Agradecemos de coração a todos que, de alguma forma, contribuíram para que a chegada desta data se tornasse realidade, e a todos que puderem nos abençoar com qualquer ajuda ou gesto de carinho nesta nova fase."
+            </p>
+            
+            <p class="text-azul-convite font-serif text-xl mt-4">Com amor, Emily e Pedro</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

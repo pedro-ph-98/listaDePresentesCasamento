@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "nome": "Aparelho de Jantar",
+    "valor": "R$ 160,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/aparelho de jantar.webp",
+    "qrCode": "src/img/pix/160.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540560.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510xNUxNyRODt6304BCEE"
+  },
+  {
+    "id": 2,
+    "nome": "Aspirador de Pó Vertical",
+    "valor": "R$ 200,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/aspirador de po.jpg",
+    "qrCode": "src/img/pix/200.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406200.005802BR5925Pedro Henrique dos Santos6009SAO PAULO621405106fKd50EfWd63041611"
+  },
+  {
+    "id": 3,
+    "nome": "Balança Digital de Cozinha",
+    "valor": "R$ 35,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/balancadigital.webp",
+    "qrCode": "src/img/pix/35.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540535.005802BR5925Pedro Henrique dos Santos6009SAO PAULO621405106Y2440I4xx6304F0F8"
+  },
+  {
+    "id": 4,
+    "nome": "Kit de Cabides",
+    "valor": "R$ 50,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/cabides.jpg",
+    "qrCode": "src/img/pix/50.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540550.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510XjTPtnLbBD63047A5F"
+  },
+  {
+    "id": 5,
+    "nome": "Fundo de investimento para o Café",
+    "valor": "R$ 25,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/cafe.jfif",
+    "qrCode": "src/img/pix/25.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540525.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510dXXUkYCmKX6304F650"
+  },
+  {
+    "id": 6,
+    "nome": "Cafeteira Elétrica",
+    "valor": "R$ 150,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/cafeteira.webp",
+    "qrCode": "src/img/pix/150.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406150.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510hueP0Dd7QY6304150E"
+  },
+  {
+    "id": 7,
+    "nome": "Pix Chopp na praia",
+    "valor": "R$ 50,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/chopp.jpg",
+    "qrCode": "src/img/pix/50.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540550.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510XjTPtnLbBD63047A5F"
+  },
+  {
+    "id": 8,
+    "nome": "Difusor de Ambiente",
+    "valor": "R$ 40,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/difusor de ambiente.webp",
+    "qrCode": "src/img/pix/40.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540540.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510BeCC26bm556304F056"
+  },
+  {
+    "id": 9,
+    "nome": "Energético para as noites de código",
+    "valor": "R$ 20,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/energetico.webp",
+    "qrCode": "src/img/pix/20.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540520.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510ibn1EaF2SB63046930"
+  },
+  {
+    "id": 10,
+    "nome": "Faqueiro Inox com Cepo",
+    "valor": "R$ 80,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/faqueiro.webp",
+    "qrCode": "src/img/pix/80.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540580.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510ZIN7yFli4q6304B459"
+  },
+  {
+    "id": 11,
+    "nome": "Ferro de Passar a Vapor",
+    "valor": "R$ 130,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/ferro de passar.webp",
+    "qrCode": "src/img/pix/130.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406130.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510KCCbh27E7263041CA4"
+  },
+  {
+    "id": 12,
+    "nome": "Gasolina para a viagem",
+    "valor": "R$ 40,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/gasolina pra viagem.webp",
+    "qrCode": "src/img/pix/40.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540540.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510BeCC26bm556304F056"
+  },
+  {
+    "id": 13,
+    "nome": "Fundo de resgate: iFood",
+    "valor": "R$ 80,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/ifood.png",
+    "qrCode": "src/img/pix/80.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540580.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510ZIN7yFli4q6304B459"
+  },
+  {
+    "id": 14,
+    "nome": "Um jantar romântico",
+    "valor": "R$ 200,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/jantar romantico.jpg",
+    "qrCode": "src/img/pix/200.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406200.005802BR5925Pedro Henrique dos Santos6009SAO PAULO621405106fKd50EfWd63041611"
+  },
+  {
+    "id": 15,
+    "nome": "Jogo de Cama",
+    "valor": "R$ 120,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/jogo de cama.jpg",
+    "qrCode": "src/img/pix/120.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406120.005802BR5925Pedro Henrique dos Santos6009SAO PAULO6214051013VtqTZ66763048C7D"
+  },
+  {
+    "id": 16,
+    "nome": "Jogo de Tapetes para Banheiro",
+    "valor": "R$ 45,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/jogo de tapete banheiro.jpg",
+    "qrCode": "src/img/pix/45.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540545.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510mrY8FNEJt063045356"
+  },
+  {
+    "id": 17,
+    "nome": "Kit de Ferramentas",
+    "valor": "R$ 70,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/kit ferramentas.jpg",
+    "qrCode": "src/img/pix/70.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540570.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510VpTpwMIsFn6304E534"
+  },
+  {
+    "id": 18,
+    "nome": "Kit de Toalhas",
+    "valor": "R$ 100,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/kit toalhas.jpg",
+    "qrCode": "src/img/pix/100.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406100.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510UraedqeUYy6304C402"
+  },
+  {
+    "id": 19,
+    "nome": "Lanches para evitar brigas por fome",
+    "valor": "R$ 45,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/lanches.jpg",
+    "qrCode": "src/img/pix/45.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540545.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510mrY8FNEJt063045356"
+  },
+  {
+    "id": 20,
+    "nome": "Curso de como dobrar lençol de elástico",
+    "valor": "R$ 35,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/lencol de elastico.webp",
+    "qrCode": "src/img/pix/35.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540535.005802BR5925Pedro Henrique dos Santos6009SAO PAULO621405106Y2440I4xx6304F0F8"
+  },
+  {
+    "id": 21,
+    "nome": "Liquidificador Potente",
+    "valor": "R$ 150,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/liquidificador.webp",
+    "qrCode": "src/img/pix/150.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406150.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510hueP0Dd7QY6304150E"
+  },
+  {
+    "id": 22,
+    "nome": "Luminária de Mesa",
+    "valor": "R$ 60,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/luminaria.jpg",
+    "qrCode": "src/img/pix/60.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540560.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510xNUxNyRODt6304BCEE"
+  },
+  {
+    "id": 23,
+    "nome": "Erro 404: Paciência não encontrada",
+    "valor": "R$ 50,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/paciencia.jpg",
+    "qrCode": "src/img/pix/50.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540550.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510XjTPtnLbBD63047A5F"
+  },
+  {
+    "id": 24,
+    "nome": "Panela de Pressão",
+    "valor": "R$ 120,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/Panela de Pressão.jpg",
+    "qrCode": "src/img/pix/120.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406120.005802BR5925Pedro Henrique dos Santos6009SAO PAULO6214051013VtqTZ66763048C7D"
+  },
+  {
+    "id": 25,
+    "nome": "Kit de Potes para Almoço",
+    "valor": "R$ 60,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/potes de almoço.webp",
+    "qrCode": "src/img/pix/60.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540560.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510xNUxNyRODt6304BCEE"
+  },
+  {
+    "id": 26,
+    "nome": "Kit de Potes Herméticos",
+    "valor": "R$ 65,00",
+    "categoria": "Casa",
+    "imagem": "src/img/produtos/potes hermeticos.jfif",
+    "qrCode": "src/img/pix/65.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e9379520400005303986540565.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510mF36gHx8iE6304F44E"
+  },
+  {
+    "id": 27,
+    "nome": "Licença suporte de TI da família",
+    "valor": "R$ 100,00",
+    "categoria": "Brincadeira",
+    "imagem": "src/img/produtos/suporte-de-TI.jpg",
+    "qrCode": "src/img/pix/100.png",
+    "chavePix": "00020126580014BR.GOV.BCB.PIX0136b0a1396f-bbfc-41e7-9b37-86ddb46e93795204000053039865406100.005802BR5925Pedro Henrique dos Santos6009SAO PAULO62140510UraedqeUYy6304C402"
+  }
+]
